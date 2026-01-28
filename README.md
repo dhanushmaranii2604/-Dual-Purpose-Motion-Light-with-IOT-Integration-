@@ -1,6 +1,11 @@
 # Dual-Purpose Motion Light with IoT Integration
 An IoT-based dual-purpose motion light using ESP8266 and a PIR sensor.
 Supports automatic motion detection Designed for energy-efficient smart lighting.
+## Features
+- Automatic motion-based lighting
+- Manual ON/OFF control
+- IoT-based remote access
+- Auto shut-off for energy saving
 
 #define BLYNK_PRINT Serial
 
