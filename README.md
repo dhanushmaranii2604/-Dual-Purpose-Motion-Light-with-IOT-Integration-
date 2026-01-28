@@ -1,3 +1,4 @@
+# Dual-Purpose Motion Light with IoT Integration
 #define BLYNK_PRINT Serial
 
 #include <ESP8266WiFi.h>
