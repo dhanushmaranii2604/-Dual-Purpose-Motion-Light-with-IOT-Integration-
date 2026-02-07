@@ -1,0 +1,18 @@
+# Exclude sensitive configuration files
+config.h
+
+# IDE files
+*.idea/
+*.vscode/
+
+# Build directories
+/build/
+/target/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.class
+*.o
+*.out
