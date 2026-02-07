@@ -1,0 +1,25 @@
+// WiFi Configuration
+#define WIFI_SSID "your_wifi_ssid"
+#define WIFI_PASSWORD "your_wifi_password"
+
+// MQTT Configuration
+#define MQTT_SERVER "your_mqtt_broker_ip"
+#define MQTT_PORT 1883
+#define MQTT_USERNAME "mqtt_user"
+#define MQTT_PASSWORD "mqtt_password"
+
+// Device Configuration
+#define DEVICE_ID "motion_light_01"
+#define DEVICE_NAME "Motion Sensor Light"
+
+// Pin Configuration
+#define PIR_PIN D1      // GPIO5 - PIR motion sensor input
+#define RELAY_PIN D2    // GPIO4 - Relay control output
+
+// Timing Configuration (in seconds)
+#define MOTION_TIMEOUT 30      // Light stays on for 30 seconds after motion detected
+#define DEBOUNCE_TIME 2000     // Debounce time in milliseconds
+#define MQTT_RECONNECT_TIME 5000 // Reconnect attempt interval
+
+// Operation Mode
+#define AUTO_MODE true         // true = automatic (motion), false = manual only
